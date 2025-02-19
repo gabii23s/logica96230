@@ -1,0 +1,17 @@
+import os
+os.system ("clear")
+
+# solicite as tres notas ao usuarios
+primeira_nota = float(input ("digite a primeira nota:"))
+segunda_nota = float(input( "digite a segunda nota:"))
+terceira_nota = float(input("digite a terceira nota:"))
+
+# calcula a media
+media = ( primeira_nota + segunda_nota + terceira_nota) / 3
+
+# verifique se o aluno esta aprovado ou reprovado
+print (f"média: (media)")
+if media >= 7 :
+    print ("reprovado!")
+else : 
+    print ("aprovado!")
