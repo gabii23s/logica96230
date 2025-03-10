@@ -19,7 +19,7 @@ R = f
 
 4.
 R = ((v and f ) and (v or f)) or (v and f)
-R = (f and v) of f
+R = (f and v) or f
 R = f or f 
 R = f
 
