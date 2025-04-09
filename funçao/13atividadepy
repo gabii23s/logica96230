@@ -1,0 +1,14 @@
+import os
+os.system ("cls || clear")
+
+
+def calcular(idade):
+    resultado = 2025 - idade
+    return resultado
+
+ano_nacimento = int(input("digite o ano de nascimento: "))
+
+idade = calcular(ano_nacimento)
+
+print(f"idade {idade}")
+
