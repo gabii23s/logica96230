@@ -2,14 +2,14 @@ import os
 os.system("cls || clear")
 
 peso = float(input("digite seu peso: "))
-altura = (float(input("digite sua altura")))
+altura = (float(input("digite a sua altura:")))
 
-def calcular_imc(peso, altura):
+def calcular_imc(peso, altura):     
     imc = peso / altura **2
-    return
+    return imc
 
-if calcular_imc(peso, altura) < 18.5:
-    print("abaixo de peso")
+if calcular_imc (peso , altura) < 18.5:
+    print("Abaixo do peso.")
 elif calcular_imc (peso, altura) < 24.9:
     print("peso normal")
 elif calcular_imc (peso, altura) <29.9:
@@ -21,4 +21,4 @@ elif calcular_imc (peso, altura) < 39.9:
 else:
     print("obesidae grau 3") 
 
-print(f"o seu imc é: (calcular_imc{peso,altura})")
+print(f"o seu imc é: {calcular_imc(peso,altura)}")
