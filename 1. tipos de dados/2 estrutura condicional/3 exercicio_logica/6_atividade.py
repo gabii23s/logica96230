@@ -8,15 +8,15 @@ os.system("clear")
 
 # Entrada
 opção: - int(input("""
-codigo\t prato \t\t\t valor
-1 \t picanha \t\t R$ 25,00
-2 \t Lasanha \t\t R$ 25,00
+codigo\t prato \t\t valor
+1 \t picanha   \t\t R$ 25,00
+2 \t Lasanha   \t\t R$ 25,00
 3 \t strogonoff \t\t R$ 18,00
-4 \t bife acebolado \t R$ 15,00
-5 \t pão com ovo \t\t R$5,00
-                  
-digite a opção desejada:
-"""))
+4 \t bife acebo  \t\t R$ 15,00
+5 \t pão com ovo  \t\t R$5,00
+                   
+Digite a opção desejada:
+                    """))
 
 # processamento
 match opção:
